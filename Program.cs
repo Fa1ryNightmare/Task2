@@ -16,6 +16,8 @@ namespace Task2
                 S += Math.Pow(-1, n) * (Math.Pow(x, 2 * n + 1) / ((2 * n - 1) * Fact(2 * n + 1)));
             }
             Console.WriteLine($"Сумма ряда: {S}");
+
+            Console.ReadKey();
         }
         static int Fact(int x)
         {
